@@ -10,7 +10,7 @@ pub fn printer(input: i32) -> i32 {
 mod tests {
 	use super::*;
 	#[test]
-	fn t1(){
+	fn test_1(){
 		assert_eq!(printer(1),1);
 	}
 

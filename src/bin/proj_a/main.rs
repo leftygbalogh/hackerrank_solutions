@@ -1,4 +1,4 @@
-mod proj_test;
+mod proj_template;
 fn main(){
-	proj_test::printer(43);
+	proj_template::printer(43);
 }

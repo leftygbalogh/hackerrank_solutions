@@ -1,9 +1,9 @@
 use criterion::{criterion_group, criterion_main, Criterion};
 use rand::Rng;
-use proj_test::printer;
+use proj_template::printer;
 
-#[path = "../proj_test.rs"]
-mod proj_test;
+#[path = "../proj_template.rs"]
+mod proj_template;
 
 //cargo bench --benches
 pub fn criterion_benchmark(c: &mut Criterion) {

@@ -1,4 +1,4 @@
-use hackerrank_solutions::proj_test::printer;
+use hackerrank_solutions::proj_template::printer;
 //cargo test
 #[test]
 fn oiyu(){
