@@ -16,6 +16,7 @@ pub fn isAlphabeticPalindrome(code: &str) -> bool {
 
 #[cfg(test)]
 mod tests {
+	use super::*;
 #[test]
 
 
@@ -29,5 +30,5 @@ mod tests {
 
 	fn _data_runner(data: [(&str, bool); 8]) {
 		for d in data.iter() {
-			assert_eq!(crate::palindrome::isAlphabeticPalindrome(d.0), d.1);
+			assert_eq!(isAlphabeticPalindrome(d.0), d.1);
 		} } }
