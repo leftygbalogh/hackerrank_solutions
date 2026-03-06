@@ -13,10 +13,9 @@ pub fn isAlphabeticPalindrome(code: &str) -> bool {
 
 	&code == &reverse
 }
-/*
+
 #[cfg(test)]
-mod tests	{
-	use super::*;
+mod tests {
 #[test]
 
 
@@ -31,27 +30,4 @@ mod tests	{
 	fn _data_runner(data: [(&str, bool); 8]) {
 		for d in data.iter() {
 			assert_eq!(crate::palindrome::isAlphabeticPalindrome(d.0), d.1);
-		}
-	}
-#[test]
-	fn d() {
-		assert_eq!(1,2);
-	}
-}
-*/
-
-pub fn printer(input: i32) -> i32 {
-	println!("Hello, from proj from bin! {}", &input);
-	input
-}
-
-//cargo test --bin proj_a
-#[cfg(test)]
-mod tests {
-	use super::*;
-	#[test]
-	fn test_1(){
-		assert_eq!(crate::proj_template::printer(1), 1);
-	}
-
-}
+		} } }
